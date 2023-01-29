@@ -1,0 +1,103 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+.nav-text{
+  font-size: small;
+  font-weight: 900;
+}
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+}
+.login-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  height: 40vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+#phonenumber{
+  height: 4vh;
+  width: 30vh;
+  margin-top: 5%;
+}
+#otp{
+  height: 4vh;
+  width: 30vh;
+  margin-top: 5%;
+}
+#submit-button{
+  height: 4vh;
+  width: 20vw;
+  margin-top: 5%;
+  background-color: blueviolet;
+  color: white;
+  border-style: hidden;
+  border-radius: 10px;
+}
+#submit-otp-button{
+  height: 4vh;
+  width: 50vw;
+  margin-top: 5%;
+  background-color: blueviolet;
+  color: white;
+  border-style: hidden;
+  border-radius: 10px;
+
+}
+.products-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.product-main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.product-name{
+  font-size: large;
+  font-weight: 900;
+}
+.product-image{
+  height: 100px;
+  width: 100px;
+  margin-top: 5%;
+}
+.buybutton{
+  background-color: blueviolet;
+  color: white;
+  border-style: hidden;
+}
+.app-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-size: 20px;
+  font-weight: 900;
+}
+.app-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}

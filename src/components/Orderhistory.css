@@ -1,0 +1,14 @@
+.order-main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.order-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+    border-style: solid;
+    border-radius: 10px;
+}
